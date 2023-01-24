@@ -21,6 +21,6 @@ function ChatManager:receive_message_by_peer(channel_id, peer, message)
 		end
 	end
 
-	self:_receive_message(channel_id, name, message, tweak_data.chat_colors[color_id] or tweak_data.chat_colors[#tweak_data.chat_colors], icon, peer)
+	self:_receive_message(channel_id, name, message, tweak_data.chat_colors[color_id] or tweak_data.chat_colors[#tweak_data.chat_colors], icon)
 end
 
