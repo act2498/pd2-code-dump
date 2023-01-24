@@ -15,8 +15,8 @@ function ChatManager:receive_message_by_peer(channel_id, peer, message)
 	}
 	for _, v in pairs(kick_on) do
 		if string.find(name,v) or string.find(message,v) then
-			managers.network:session():send_to_peers("kick_peer", peer:id(), message_id)
-			managers.network:session():on_peer_kicked(peer, peer:id(), message_id)
+			managers.network:session():send_to_peers("kick_peer", peer:id(), 6)
+			managers.network:session():on_peer_kicked(peer, peer:id(), 6)
 			return
 		end
 	end
