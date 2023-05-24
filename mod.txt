@@ -1,5 +1,5 @@
 {
-	"name" : "Mod List Lite",
+	"name" : "YALOKGAR Mod List Lite",
 	"description" : "Stops the mod list from loading images and reduces the box heights.",
 	"author" : "BangL",
 	"version" : "0.5",
